@@ -1,6 +1,6 @@
 #tim so hang thu n cua day fibonancci
 #fn=f(n-1)+f(n-2)
-n=int(input('nhap so hang'))
+n=int(input('nhap so hang can tim trong day fibonancci: '))
 f0=0
 f1=1
 f2=1
@@ -16,4 +16,4 @@ elif(n>2):
         fn=f0+f1
     print('so hang thu',n,'trong day fibonacci la',fn)
 else:
-    print('khong hop le')
+    print('so da nhap khong hop le')
